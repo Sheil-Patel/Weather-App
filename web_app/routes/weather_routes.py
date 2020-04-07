@@ -2,7 +2,7 @@
 
 from flask import Blueprint, render_template, request
 
-from app.weather_service import get_hourly_forecasts
+from web_app.app.weather_service import get_hourly_forecasts
 
 weather_routes = Blueprint("weather_routes", __name__)
 

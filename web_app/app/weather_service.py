@@ -7,7 +7,7 @@ from pprint import pprint
 import requests
 from dotenv import load_dotenv
 
-from app import APP_ENV
+from web_app.app import APP_ENV
 
 load_dotenv()
 
