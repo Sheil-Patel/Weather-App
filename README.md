@@ -1,10 +1,14 @@
 # Weather-App
 
 
-## How to run App
+## Web App Usage
 
-'''sh
+Run the app:
+
+```py
+# on mac:
+FLASK_APP=web_app flask run
+# on windows:
 export FLASK_APP=web_app
-
 flask run
-'''
+```

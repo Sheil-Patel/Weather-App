@@ -29,5 +29,5 @@ def create_user():
     user = dict(request.form)
     # todo: store in a database or google sheet!
     #flash(f"User '{user['full_name']}' created successfully!", "success")
-    flash(f"User '{user['full_name']}' created successfully! (TODO)", "warning")
+    flash(f"User '{user['full_name']}' created successfully! (TODO)", "danger")
     return redirect("/")
